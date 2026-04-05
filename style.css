@@ -22,10 +22,6 @@ header {
     padding-bottom: 1rem;
 }
 
-header h1 {
-    font-size: 2rem;
-}
-
 header p {
     color: #555;
     margin-top: 0.3rem;
@@ -67,3 +63,29 @@ footer {
 footer a {
     color: #555;
 }
+
+/* a partir daqui é a foto de perfil */
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.perfil-texto {
+    flex: 1;
+}
+
+.perfil-texto h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.perfil-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
