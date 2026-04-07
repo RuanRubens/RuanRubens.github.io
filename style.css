@@ -103,8 +103,6 @@ header {
   object-fit: cover;
   border-radius: 12px;
   display: block;
-  position: relative;
-  z-index: 1;
   filter: grayscale(20%);
 }
 
@@ -198,10 +196,13 @@ footer a:hover {
   border: 1px solid #58a6ff;
   color: #58a6ff;
   border-radius: 6px;
-  padding: 0.2rem 0.6rem;
+  padding: 0.2rem 0.5rem;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  line-height: 1;
   margin-right: 0.8rem;
+  outline: none;
+  vertical-align: middle;
 }
 
 .btn-tema:hover {
@@ -294,6 +295,11 @@ body.claro .perfil-foto {
 
 body.claro .subtitulo {
   color: #1a6fbe;
+}
+
+.btn-tema:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 
