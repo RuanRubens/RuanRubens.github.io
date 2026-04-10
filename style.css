@@ -155,12 +155,14 @@ footer a:hover {
 }
 
 /* Foto nos artigos */
+
 .foto-texto {
-  width: 100%;
+  width: 60%;
   max-width: 100%;
   height: auto;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
   border-radius: 8px;
+  display: block;
 }
 
 /* Idiomas */
